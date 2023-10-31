@@ -1,1 +1,1 @@
-# simple beginner web_projects for the porpuse of learning 
+# web_projects for learning 
