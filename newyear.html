@@ -7,13 +7,15 @@
     <style> 
      body {
       font-family: Arial, sans-serif;
-      background-color: rgb(197, 226, 219);
+      background-color: rgb(194, 202, 204);
+      margin: 0;
+      padding: 0;
+      text-align: center;
     }
     
     .container {
-      max-width: 1500px;
-      max-height: 1000px;
-      margin: 0 auto;
+      max-width: 900px;
+      margin: 100px auto;
       padding: 20px;
       background-color: #fff;
       border-radius: 20px;
@@ -22,16 +24,37 @@
     
     h1 {
       text-align: center;
+      color: rgb(0, 0, 0);
     }
     p {
       text-align: center;
+      color: rgb(118, 71, 6);
     }
     .time {
         text-align:center;
-        font-size: large;
+        font-size: 28px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 65px;
     }
-    .input,.input-field{
+    .sub{
         text-align:center;
+        margin-top: 30px;
+    }
+    .sub input{
+        padding: 10px;
+        width: 50%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .sub button{
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
     }
     </style>
   
@@ -62,14 +85,11 @@
                 <br>seconds
             </div>
         </div>
-        <div class="input">
-            <h3>subscrube now to get updates</h3>
-            <div class="input-field">
-                <div>
-                    <input type = "email" placeholder="enter an email">
-                    <a href ="#">subscribe now</a>
-                </div>
-            </div>
+
+        <div class="sub">
+            <h5>subscrube now to get updates</h5>
+                    <input type = "email" placeholder="enter an email"><br>
+                    <button>Subscribe</button>
         </div>
     </div> 
      
