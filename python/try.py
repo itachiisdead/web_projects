@@ -31,13 +31,6 @@ for key, value in student.items():
 
 
 
-
-
-
-
-
-
-
 # Define a class named "Person"
 class Person:
     # Constructor method to initialize the object
